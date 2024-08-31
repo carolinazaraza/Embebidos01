@@ -22,7 +22,6 @@ void setup() {
 void loop() {
   // Esperar 2 segundos entre lecturas
   delay(2000);
-
   // Leer la humedad
   float h = dht.readHumidity();
   // Leer la temperatura en grados Celsius
